@@ -5,7 +5,6 @@
     <classes>
       <class name="testngExample.HrmSearchExample">
         <methods>
-          <include name="search" invocation-numbers="0"/>
           <include name="search"/>
         </methods>
       </class> <!-- testngExample.HrmSearchExample -->

@@ -1,4 +1,4 @@
-package stepdefinations;
+package cucumber;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
