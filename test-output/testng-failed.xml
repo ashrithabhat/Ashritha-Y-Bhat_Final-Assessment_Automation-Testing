@@ -5,7 +5,9 @@
     <classes>
       <class name="testngExample.HrmSearchExample">
         <methods>
-          <include name="search"/>
+          <include name="employeeSearch"/>
+          <include name="employeeSearch"/>
+          <include name="login"/>
         </methods>
       </class> <!-- testngExample.HrmSearchExample -->
     </classes>

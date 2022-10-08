@@ -1,3 +1,5 @@
+//Example for simple alert.
+
 package alerthandlings;
 
 import java.util.concurrent.TimeUnit;

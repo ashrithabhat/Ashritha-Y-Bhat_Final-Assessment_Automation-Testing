@@ -1,3 +1,5 @@
+//Example for Prompt alert
+
 package alerthandlings;
 
 import java.util.concurrent.TimeUnit;

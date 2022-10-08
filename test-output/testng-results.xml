@@ -1,16 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-08T04:23:41Z" name="Default suite" finished-at="2022-10-08T04:23:53Z" duration-ms="12082">
+  <suite started-at="2022-10-08T11:38:16Z" name="Default suite" finished-at="2022-10-08T11:38:39Z" duration-ms="22839">
     <groups>
     </groups>
-    <test started-at="2022-10-08T04:23:41Z" name="Default test" finished-at="2022-10-08T04:23:53Z" duration-ms="12082">
+    <test started-at="2022-10-08T11:38:16Z" name="Default test" finished-at="2022-10-08T11:38:39Z" duration-ms="22839">
       <class name="testngExample.HrmSearchExample">
-        <test-method signature="search()[pri:0, instance:testngExample.HrmSearchExample@3b8f0a79]" started-at="2022-10-08T04:23:41Z" name="search" finished-at="2022-10-08T04:23:53Z" duration-ms="12064" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:testngExample.HrmSearchExample@7ceb3185]" started-at="2022-10-08T11:38:16Z" name="login" finished-at="2022-10-08T11:38:24Z" duration-ms="7440" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- search -->
+        </test-method> <!-- login -->
+        <test-method signature="employeeSearch(java.lang.String)[pri:0, instance:testngExample.HrmSearchExample@7ceb3185]" started-at="2022-10-08T11:38:24Z" name="employeeSearch" data-provider="Test1" finished-at="2022-10-08T11:38:28Z" duration-ms="4146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employeeSearch -->
+        <test-method is-config="true" signature="login()[pri:0, instance:testngExample.HrmSearchExample@7ceb3185]" started-at="2022-10-08T11:38:28Z" name="login" finished-at="2022-10-08T11:38:34Z" duration-ms="6092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="employeeSearch(java.lang.String, java.lang.String)[pri:0, instance:testngExample.HrmSearchExample@7ceb3185]" started-at="2022-10-08T11:38:34Z" name="employeeSearch" data-provider="Test2" finished-at="2022-10-08T11:38:39Z" duration-ms="5137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Paul]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employeeSearch -->
       </class> <!-- testngExample.HrmSearchExample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
