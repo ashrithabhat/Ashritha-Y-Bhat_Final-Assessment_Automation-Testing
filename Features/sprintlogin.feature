@@ -1,3 +1,5 @@
+# Feature file used to provide scenarios
+
 Feature: HRM Application
 Scenario: Verify user is able to login with valid user id and password
 Given browser is open and application is in login page

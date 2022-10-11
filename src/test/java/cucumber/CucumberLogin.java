@@ -13,6 +13,7 @@ public class CucumberLogin {
 	
 	private static WebDriver driver = null;
 	
+	// Providing defination to Given, When, Then
 	@Given("browser is open and application is in login page")
 	public void browser_is_open_and_application_is_in_login_page() 
 	{

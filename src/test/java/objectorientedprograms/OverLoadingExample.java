@@ -7,12 +7,14 @@ public class OverLoadingExample {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		OverLoadingExample obj = new OverLoadingExample();
-		obj.simpleCalculator(10,20);
+		obj.simpleCalculator(10,20);// Calling method
 		obj.simpleCalculator(20.5f,10.5f);
 		obj.simpleCalculator(2,4,3);
 		obj.simpleCalculator(20d, 10d);
 		
 	}
+	
+	// Having same method name by passing different parameters
 	void simpleCalculator(int x,int y)
 	{
 		int sum = x + y;

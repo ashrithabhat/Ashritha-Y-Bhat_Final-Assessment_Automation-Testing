@@ -11,11 +11,20 @@ public class MouseActionClick {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-
+		
+		// Setting which browser we need to use and setting path where that browser is present
 		System.setProperty("webdriver.chrome.driver", "C:\\Ashritha\\chromedriver.exe");
+		
+		// Creating object for web driver class
 		WebDriver driver = new ChromeDriver();
+		
+		// get() method to navigate to the site which we need to automate
 		driver.get("https://demoqa.com/buttons");
+		
+		// To maximize the window
 		driver.manage().window().maximize();
+		
+		//Implicit wait to provide some delay to load the particular page
 		driver.manage().timeouts().implicitlyWait(1000, TimeUnit.MILLISECONDS);
 		Actions mouse=new Actions(driver);
 		

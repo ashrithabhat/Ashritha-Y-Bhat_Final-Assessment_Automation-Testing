@@ -2,9 +2,10 @@
 
 package objectorientedprograms;
 
+// Interface class contains only abstract method
 interface add
 {
-	void addition();
+	void addition();// Abstract method which contains no defination
 }
 
 interface sub
@@ -32,6 +33,8 @@ public class InterfaceExample implements add,sub,multiply,divide{
 		obj.multiplication();
 		obj.division();
 	}
+	
+	// Providing defination for abstract method
 	public void addition()
 	{
 		int x=10;

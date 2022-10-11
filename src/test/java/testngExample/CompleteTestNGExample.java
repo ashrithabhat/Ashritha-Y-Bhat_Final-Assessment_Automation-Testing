@@ -10,8 +10,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class CompleteTestNGExample {
+	// Creating object publicly
 	private static WebDriver driver;
-	@Test(priority=1)
+	@Test(priority=1)//Giving priority for test
 	public void hrmLogin() throws InterruptedException
 	{
 		System.setProperty("webdriver.chrome.driver", "C:\\Ashritha\\chromedriver.exe");

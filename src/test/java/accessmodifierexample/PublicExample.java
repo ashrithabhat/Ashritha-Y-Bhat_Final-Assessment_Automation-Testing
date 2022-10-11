@@ -6,7 +6,7 @@ public class PublicExample {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		PublicExample1 obj = new PublicExample1();
+		PublicExample1 obj = new PublicExample1(); //Creating object for class
 		System.out.println("Sum of two numbers = " + obj.add(40, 60));
 	}
 }

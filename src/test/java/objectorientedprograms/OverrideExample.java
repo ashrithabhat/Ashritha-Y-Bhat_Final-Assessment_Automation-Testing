@@ -24,6 +24,8 @@ public class OverrideExample extends Sbi {
 		OverrideExample bank = new OverrideExample();
 		bank.sbiRateOfInterest();
 	}
+	
+	// Overriding sbiRateOfInterest method
 	void sbiRateOfInterest()
 	{
 		super.sbiRateOfInterest();

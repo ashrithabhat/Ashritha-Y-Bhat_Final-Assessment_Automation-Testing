@@ -13,7 +13,10 @@ public class ArrayListExample {
 	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Collection values = new ArrayList();
+		
+		Collection values = new ArrayList(); // Creating object.
+		
+		// Adding values to the list
 		values.add("Ashritha");
 		values.add(16);
 		values.add(2001);

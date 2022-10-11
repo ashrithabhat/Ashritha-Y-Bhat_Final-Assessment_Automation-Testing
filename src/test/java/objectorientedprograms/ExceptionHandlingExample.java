@@ -50,7 +50,7 @@ public class ExceptionHandlingExample extends Abc {
 		validate(16);
 	}
 	
-	//Throws keyword
+	//Throw keyword used to create our own exception
 	static void validate(int age)
 	{
 		if(age<18)

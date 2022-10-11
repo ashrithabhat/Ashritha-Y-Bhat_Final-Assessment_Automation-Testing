@@ -43,7 +43,7 @@ public class HrmSearchExample {
 		driver.findElement(By.xpath("//div[@class='oxd-autocomplete-text-input oxd-autocomplete-text-input--active']/input")).sendKeys(empName);
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 	}
-	@DataProvider(name="Test1")
+	@DataProvider(name="Test1")//Data provider is used to give values to the parameters
 	   public static Object[][] dataProviderMethod1()
 	   {
 	      return new Object[][] {{"Admin"}};
