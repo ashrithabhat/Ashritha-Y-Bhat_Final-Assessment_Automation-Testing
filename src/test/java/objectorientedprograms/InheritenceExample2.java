@@ -31,8 +31,8 @@ public class InheritenceExample2 extends BankAccount {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		InheritenceExample2 obj = new InheritenceExample2();
-		obj.deposit();
-		obj.withdraw();
-		obj.getBalance();
+		obj.deposit();//call deposit method
+		obj.withdraw();//call withdraw method
+		obj.getBalance();//call getBalance method
 	}
 }
