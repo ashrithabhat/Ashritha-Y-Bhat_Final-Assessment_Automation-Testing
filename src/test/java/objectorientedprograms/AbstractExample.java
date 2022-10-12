@@ -3,7 +3,7 @@
 package objectorientedprograms;
 
 // Abstract class contains abstract method and other methods also
-abstract class Vehicle
+abstract class VehicleManufacture
 {
 	// Abstract method which contains no defination.
 	abstract void car();
@@ -11,12 +11,12 @@ abstract class Vehicle
 	// bike method
 	void bike()
 	{
-		System.out.println("Bikes are 2 wheeler");
+		System.out.println("Different types of Bikes are manufactured here");
 	}
 }
 
 // Class abstract example inherits the properties of class Vehicle
-public class AbstractExample extends Vehicle {
+public class AbstractExample extends VehicleManufacture {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -28,6 +28,6 @@ public class AbstractExample extends Vehicle {
 	// Providing defination for abstract method
 	void car()
 	{
-		System.out.println("Cars are 4 wheeler");
+		System.out.println("Different types of cars are manufactured here");
 	}
 }
